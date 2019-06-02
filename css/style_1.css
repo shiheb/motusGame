@@ -1,0 +1,131 @@
+.debutJeu
+{
+   background-image: url("../image/bouton.png"); 
+   width: 200px;
+   height: 50px;
+   text-align: center;
+   font-size: 22px;
+   opacity: 0.9;
+   color: white;
+   cursor:pointer;
+}
+.terminerjeu
+{
+   background-image: url("../image/bouton3.png"); 
+   width: 300px;
+   height: 50px;
+   text-align: center;
+   font-size: 22px;
+   opacity: 0.9;
+   color: white;
+   cursor:pointer;
+}
+.aideJeu
+{
+   background-image: url("../image/bouton6.png");
+   width: 170px;
+   height: 50px;
+   text-align: center;
+   font-weight: bold;
+   font-size: 14px;
+   opacity: 0.9;
+   color: red;
+   cursor:pointer;
+}
+.ajouterMot
+{
+	 background-image: url("../image/bouton4.png");
+	 width: 50px;
+     height: 50px;
+	 cursor:pointer;
+}
+.supprimerMot
+{
+	 background-image: url("../image/bouton5.png");
+	 width: 50px;
+     height: 50px;
+	 cursor:pointer;
+}
+.styleLettre
+{
+   background-image: url("../image/bouton2.png"); 
+   width: 50px;
+   height: 50px;
+   text-align: center;
+   font-size: 30px;
+   opacity: 1;
+   color: yellow;
+   font-family: Verdana;
+   cursor:pointer;
+}
+
+.bienvenue
+{
+	font-size: 14px;
+	font-weight: bold;
+    font-family: Comic Sans MS, Trebuchet MS, Verdana;
+	cursor:pointer;
+	color: green;
+}
+
+.controleProsition
+{
+	color: red;
+	font-weight: bold;
+	text-decoration: blink;
+	cursor:pointer;
+}
+.rejouer
+{
+	background-image: url("../image/bouton7.png"); 
+   width: 200px;
+   height: 60px;
+   text-align: center;
+   font-size: 30px;
+   opacity: 0.9;
+   color: yellow;
+   cursor:pointer;
+   font-weight: bold;
+   text-decoration:none;
+}
+.body {
+
+background-image:url(../image/image1.jpg);
+
+}
+
+.divResultat
+{  
+   margin:200px;
+   background-image: url("../image/image2"); 
+   width: 512px;
+   height: 435px;
+   text-align: center;
+   font-size: 35px;
+   opacity: 1;
+   color: blue;
+   font-family: Trebuchet MS;
+   vertical-align: middle;
+   cursor:pointer;
+   
+}
+#cadre {
+
+    border: 1px solid red;
+
+}
+
+
+#bloc {
+
+    width: 20px;
+
+    height: 40px;
+
+    background: red;
+
+    position: relative; /* Permettra de décaler le bloc */
+
+    left: 0px; /* Initialise la position gauche du bloc à déplacer */
+
+}
